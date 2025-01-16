@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="register-screen">
+        <img src="./assets/perpustakaan.png" alt="Logo Perpustakaan" />
+        <h2>Register</h2>
+        <form action="register.php" method="POST">
+          <input type="text" name="username" placeholder="Username" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input type="email" name="email" placeholder="Email" required />
+          <button type="submit"><a href="pilih_buku.php">Register</a></button>
+        </form>
+        <a href="index.html">Kembali ke Login</a>
+      </div>
+    </div>
+  </body>
+</html>
